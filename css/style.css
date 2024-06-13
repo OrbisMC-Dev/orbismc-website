@@ -1,10 +1,10 @@
 @font-face {
   font-family: Minecraft;
-  src: url(mc.otf);
+  src: url(/fonts/mc.otf);
 }
 @font-face {
   font-family: MinecraftBold;
-  src: url(mcbold.otf);
+  src: url(/fonts/mcbold.otf);
 }
 
 html {
