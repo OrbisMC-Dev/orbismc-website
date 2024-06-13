@@ -1,11 +1,3 @@
-@font-face {
-  font-family: Minecraft;
-  src: url(/fonts/mc.otf);
-}
-@font-face {
-  font-family: MinecraftBold;
-  src: url(/fonts/mcbold.otf);
-}
 
 html {
   background: #000;
