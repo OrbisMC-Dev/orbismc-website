@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Minecraft;
+  src: url(mc.otf);
+}
+@font-face {
+  font-family: MinecraftBold;
+  src: url(mcbold.otf);
+}
+
+html {
+  background: #000;
+  color: #fff;
+  font-family: Minecraft, sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+body {
+  margin: 0px;
+}
+.body {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #181818;
+  padding: 30px;
+}
+.header {
+  background: linear-gradient(#342D47,#241F31);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 4px solid #000;
+}
+.footer {
+  background: linear-gradient(#241F31,#19161f);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 4px solid #000;
+}
+.tagline {
+  padding-left: 30px;
+  text-shadow: 4px 4px #0006;
+  font-family: MinecraftBold, sans-serif;
+}
+.header img {
+  filter: drop-shadow(4px 4px 0 #0006);
+}
+b {
+  font-family: MinecraftBold, sans-serif;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #55f;
+}
+
+.split_columns, .single_column {
+  margin-top: 30px;
+}
+.split_columns:first-child, .single_column:first-child {
+  margin-top: 0px;
+}
+.split_columns {
+  display: flex;
+  gap: 20px;
+}
+.split_columns div {
+  flex: 1;
+}
+.blurbimg {
+  max-width:100%;
+  margin: 6px 0px;
+}
+
+@media only screen and (max-width: 750px) {
+  .split_columns {
+    display: block;
+    margin-top: 0px;
+  }
+  .split_columns div {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tagline {
+    display:none;
+  }
+}
